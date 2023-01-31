@@ -6,7 +6,7 @@ test('Tamara has 6 letters', () => {
 
 test('Introduction has 12 letters', () => {
   expect(stringLength('Introduction')).toBe(
-    'Тhe result does not match the requrements'
+    'Тhe result does not match the requrements',
   );
 });
 test('lenght with 0 letter', () => {

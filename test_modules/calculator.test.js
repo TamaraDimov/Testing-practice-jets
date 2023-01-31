@@ -1,4 +1,4 @@
-const calculator = require('./calculator');
+const calculator = require('./calculator.js');
 
 describe('dividing', () => {
   test('10 and 2 is 5', () => {
@@ -7,7 +7,7 @@ describe('dividing', () => {
 
   test('5 and 0 is 0', () => {
     expect(calculator.devide(5, 0)).toBe(
-      'y value is 0,so the result is also 0'
+      'y value is 0,so the result is also 0',
     );
   });
 

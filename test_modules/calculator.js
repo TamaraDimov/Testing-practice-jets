@@ -12,6 +12,7 @@ class calculator {
     }
     return x * y;
   }
+
   static add(x, y) {
     if (x === 0 && y === 0) {
       return 'The x & y values are 0';
